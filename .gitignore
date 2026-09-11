@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment Variables & Keys
+.env
+.env.*
+!.env.example
+
+# Temporary Uploads & Hyper Logs
+server/uploads/*
+!server/uploads/.gitkeep
+*.hyper
+hyperd.log
+*.log
+
+# Build Outputs
+dist/
+client/dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+.gemini/
+.agents/
